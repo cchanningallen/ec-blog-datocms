@@ -33,12 +33,12 @@ module.exports = {
         lg: {
           css: {
             img: {
-              marginTop: '0',
-              marginBottom: '0',
+              marginTop: "0",
+              marginBottom: "0",
             },
           },
         },
-      }
+      },
     },
   },
   variants: {

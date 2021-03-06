@@ -1,5 +1,18 @@
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+@font-face {
+  font-family: "Alegreya";
+  font-weight: 400;
+  src: url("/AlegreyaSansSC-Regular.ttf") format("truetype");
+}
+
 /* purgecss start ignore */
 @tailwind base;
 @tailwind components;
 /* purgecss end ignore */
 @tailwind utilities;
+
+.font-fancy {
+  font-family: "Alegreya", sans-serif;
+}
